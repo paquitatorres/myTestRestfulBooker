@@ -1,0 +1,37 @@
+{
+  "validDates": {
+    "description": "Fechas válidas: check-in mañana, check-out estandar",
+    "checkIn": "19/06/2026",
+    "checkOut": "26/06/2026"
+  },
+  "sameDayDates": {
+    "description": "Caso borde: check-in y check-out el mismo día",
+    "checkIn": "20/06/2026",
+    "checkOut": "20/06/2026"
+  },
+  "checkOutBeforeCheckIn": {
+    "description": "Caso negativo: checkout anterior al checkin",
+    "checkIn": "26/06/2026",
+    "checkOut": "19/06/2026"
+  },
+  "pastDates": {
+    "description": "Caso negativo: fechas en el pasado",
+    "checkIn": "01/01/2020",
+    "checkOut": "05/01/2020"
+  },
+  "oneDayStay": {
+    "description": "Caso Positivo: estadía de exactamente 1 noche",
+    "checkIn": "19/06/2026",
+    "checkOut": "20/06/2026"
+  },
+  "longStay": {
+    "description": "Caso borde: estadía larga (30 noches)",
+    "checkIn": "19/06/2026",
+    "checkOut": "19/08/2026"
+  },
+  "farFutureDates": {
+    "description": "Caso borde: fechas muy lejanas en el futuro",
+    "checkIn": "01/01/2030",
+    "checkOut": "10/01/2030"
+  }
+}

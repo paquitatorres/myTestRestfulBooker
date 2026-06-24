@@ -1,25 +1,14 @@
-// ***********************************************
-// This example commands.js shows you how to
-// create various custom commands and overwrite
-// existing commands.
-//
-// For more comprehensive examples of custom
-// commands please read more here:
-// https://on.cypress.io/custom-commands
-// ***********************************************
-//
-//
-// -- This is a parent command --
-// Cypress.Commands.add('login', (email, password) => { ... })
-//
-//
-// -- This is a child command --
-// Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
-//
-//
-// -- This is a dual command --
-// Cypress.Commands.add('dismiss', { prevSubject: 'optional'}, (subject, options) => { ... })
-//
-//
-// -- This will overwrite an existing command --
-// Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+// Import commands de la seccion availability  :
+import './actions/availability'
+//Excepciones para evitar errores de react
+Cypress.on('uncaught:exception', (err) => {
+  if (
+    err.message.includes('Minified React error #418') ||
+    err.message.includes('Minified React error #421') ||
+    err.message.includes('Minified React error #423') ||
+    err.message.includes('Hydration failed')
+  ) {
+    return false;
+  }
+  return true;
+});
