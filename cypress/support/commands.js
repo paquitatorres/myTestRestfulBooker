@@ -12,3 +12,31 @@ Cypress.on('uncaught:exception', (err) => {
   }
   return true;
 });
+
+Cypress.Commands.add('llenarFormularioDesdeFixture', (escenario) => {
+  
+  cy.fixture('datosReserva').then((datos) => {
+    
+    const usuario = datos[escenario]; 
+
+    cy.get('[name="firstname"]').clear();
+    if (usuario.firstname.trim() !== '') {
+      cy.get('[name="firstname"]').type(usuario.firstname);
+    }
+
+    cy.get('[name="lastname"]').clear();
+    if (usuario.lastname.trim() !== '') {
+      cy.get('[name="lastname"]').type(usuario.lastname);
+    }
+
+    cy.get('[name="email"]').clear();
+    if (usuario.email.trim() !== '') {
+      cy.get('[name="email"]').type(usuario.email);
+    }
+
+    cy.get('[name="phone"]').clear();
+    if (usuario.phone.trim() !== '') {
+      cy.get('[name="phone"]').type(usuario.phone);
+    }
+  });
+});
