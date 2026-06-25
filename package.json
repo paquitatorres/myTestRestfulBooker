@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cypress open",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test:api": "cypress run --spec cypress/e2e/api/booking.cy.js"
   },
   "keywords": [],
   "author": "",

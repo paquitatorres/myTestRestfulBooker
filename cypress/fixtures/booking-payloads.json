@@ -1,0 +1,76 @@
+{
+  "validGuest": {
+    "roomid": 2,
+    "firstname": "Agustin",
+    "lastname": "Tester",
+    "email": "agustin.tester@email.com",
+    "phone": "1234567890123",
+    "depositpaid": false
+  },
+  "validMinimal": {
+    "roomid": 1,
+    "firstname": "Sergio",
+    "lastname": "Tester",
+    "depositpaid": false
+  },
+  "invalidEmail": {
+    "roomid": 2,
+    "firstname": "Agustin",
+    "lastname": "Tester",
+    "email": "correo-invalido",
+    "phone": "1234567890123",
+    "depositpaid": false
+  },
+  "phoneTooShort": {
+    "roomid": 2,
+    "firstname": "Agustin",
+    "lastname": "Tester",
+    "email": "agustin.tester@email.com",
+    "phone": "12345",
+    "depositpaid": false
+  },
+  "phoneTooLong": {
+    "roomid": 2,
+    "firstname": "Agustin",
+    "lastname": "Tester",
+    "email": "agustin.tester@email.com",
+    "phone": "1234567890123456789012",
+    "depositpaid": false
+  },
+  "missingNames": {
+    "roomid": 2,
+    "email": "agustin.tester@email.com",
+    "phone": "1234567890123",
+    "depositpaid": false
+  },
+  "invalidRoomId": {
+    "roomid": 999,
+    "firstname": "Agustin",
+    "lastname": "Tester",
+    "email": "agustin.tester@email.com",
+    "phone": "1234567890123",
+    "depositpaid": false
+  },
+  "checkoutBeforeCheckin": {
+    "roomid": 2,
+    "firstname": "Agustin",
+    "lastname": "Tester",
+    "email": "agustin.tester@email.com",
+    "phone": "1234567890123",
+    "depositpaid": false,
+    "bookingdates": {
+      "checkin": "2033-06-10",
+      "checkout": "2033-06-05"
+    }
+  },
+  "flatDatesInvalidFormat": {
+    "roomid": 2,
+    "firstname": "Agustin",
+    "lastname": "Tester",
+    "email": "agustin.tester@email.com",
+    "phone": "1234567890123",
+    "checkin": "2033-07-01",
+    "checkout": "2033-07-05",
+    "depositpaid": false
+  }
+}
