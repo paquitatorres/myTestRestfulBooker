@@ -26,19 +26,19 @@ El objetivo es automatizar pruebas sobre la pagina web utilizando Cypress junto 
 
 ## 📚 Recursos del Challenge
 
-### Instrucciones del challenge 
+### Instrucciones del challenge: 
 
 https://drive.google.com/file/d/1slMFmhqYpNacLqEbyMhNr0aadm0x2ewR/view
 
-### Pizarra de organización del equipo en Canva
+### Pizarra de organización del equipo en Canva:
 
 https://canva.link/o4a4bc9pk40nz7g
 
-### Tabla de casos de prueba 
+### Tabla de casos de prueba: 
 
 https://docs.google.com/spreadsheets/d/1-krAELTGU8WdsVzfwrb8DMCSLs-vRPT81iNoGwo7_Z4/edit?gid=0#gid=0
 
-### Tablero de Bugs en Trello
+### Tablero de Bugs en Trello:
 
 https://trello.com/b/kmzVS0L3/challege-final-xacademy-grupo-11
 
