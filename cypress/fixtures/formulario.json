@@ -1,0 +1,20 @@
+{
+  "valido": {
+    "firstname": "Sergio",
+    "lastname": "Tester",
+    "email": "sergio.tester@email.com",
+    "phone": "1234567890123"
+  },
+  "vacio": {
+    "firstname": "",
+    "lastname": "",
+    "email": "",
+    "phone": ""
+  },
+  "pruebaTipos": {
+    "firstname": "Sergio2asd<w",
+    "lastname": "Tester12..",
+    "email": "sergio@email.com",
+    "phone": "123dadm..-a12"
+  }
+}
