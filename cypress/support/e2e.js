@@ -16,6 +16,7 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+import './api/booking'
 
 
 Cypress.on('uncaught:exception', (err, runnable) => {
