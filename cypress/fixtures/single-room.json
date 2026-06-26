@@ -1,0 +1,15 @@
+{
+    "registrouno": {
+        "firstname": "Jean Claude",
+        "lastname": "Van Damme",
+        "email": "jean.claude.van.damme@example.com",
+        "phone": "5403855512369"
+    },
+
+    "registrodos": {
+        "firstname": "Anakin",
+        "lastname": "Skywalker",
+        "email": "anakin.skywalker@example.com",
+        "phone": "5403855512370"
+    }
+}
